@@ -1,0 +1,20 @@
+@relation Dermatologia
+
+@attribute ETAPA {Primera_Infancia,Infancia, Adolescencia,Juventud,Adultez,Tercera_edad}
+@attribute PRINCIPAL {SI,NO}
+@attribute TIPO {PRESUNTIVO,DEFINITIVO}
+@attribute CLASE {CONFIRMADO_NUEVO,CONFIRMADO_REPETIDO,IMPRESION_DIAGNOSTICA}
+@attribute TEMPORADA {Primavera,Verano,Otono,Invierno}
+@attribute FECHA DATE "dd-MM-yyyy"
+
+@data
+Adultez,NO,PRESUNTIVO,IMPRESION_DIAGNOSTICA,Verano,"16-09-2015"
+Tercera_edad,SI,DEFINITIVO,CONFIRMADO_REPETIDO,Verano,"6-08-2015"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Verano,"12-09-2012"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Verano,"12-09-2011"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Primavera,"5-03-2011"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Primavera,"19-04-2011"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Invierno,"30-01-2012"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Otono,"29-10-2013"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_NUEVO,Invierno,"1-12-2011"
+Adolescencia,SI,DEFINITIVO,CONFIRMADO_REPETIDO,Otono,"11-10-2011"
